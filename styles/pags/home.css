@@ -1,0 +1,78 @@
+hr{
+    width: 53%;
+}
+
+h3{
+    padding: 0 8px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+
+.text p{
+    width: 55%;
+    align-self: center;
+}
+
+.border{
+    border: 3px outset var(--bg-primary);
+    margin-bottom: 5px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{    
+    width: 80%;          
+}
+
+.container img{
+    width: 128px;
+    height: 128px;
+    margin: auto;
+    margin-right: 20px;
+}
+
+.section{   
+    display: flex;
+    padding: 30px;
+    text-align: justify;    
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+.text p{
+    width: auto;
+}
+
+.container{
+    width: 100%; 
+}
+
+.container img{
+    width: 192px;
+    height: 192px;
+    margin-right: auto;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+}
+
+
+}

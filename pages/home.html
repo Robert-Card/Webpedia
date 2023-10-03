@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>    
+
+<head>
+
+    <!-- Detalhes -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPedia</title>
+
+     <!-- JavaScript - CSS-->
+     <script defer src="../script/script.js"></script>
+     <link rel="stylesheet" href="../styles/styles.css"/>
+     <link rel="stylesheet" href="../styles/navbar.css"/>
+     <link rel="stylesheet" href="../styles/pags/home.css"/>
+
+     <!--Imports-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+            <!--Nav-->
+            <nav class="mynavbar"></nav>
+            
+
+</head>
+
+<!-- /// -->
+
+<body>
+
+  <!--Exibição da Navbar-->
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="logo">
+        <a href="home.html" class="nav-link">
+          <span class="link-text logo-text">WebPedia</span>
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fad"
+            data-icon="angle-double-right"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+            class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x"
+          >
+
+            <!--Setas Duplas-->
+            <g class="fa-group">
+              <path
+                fill="currentColor"
+                d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                
+              ></path>
+              <path
+                fill="currentColor"
+                d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                
+              ></path>
+            </g>
+          </svg>
+        </a>
+      </li>
+
+      <!--História-->
+      <li class="nav-item">
+        <a href="historia.html" class="nav-link">
+
+        <svg 
+          aria-hidden="true" 
+          focusable="false" 
+          data-prefix="fab" 
+          data-icon="html5" 
+          class="svg-inline--fa fa-html5 fa-w-12" 
+          role="img" 
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 384 512">
+          <path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path>>        
+          </svg>
+
+          <span class="link-text">História</span>
+        </a>
+      </li>
+
+      <!--Frameworks-->
+      <li class="nav-item">
+        <a href="framework.html" class="nav-link">
+
+        <svg 
+          aria-hidden="true" 
+          focusable="false" 
+          data-prefix="fab" 
+          data-icon="angular" 
+          class="svg-inline--fa fa-angular fa-w-14" 
+          role="img" 
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 448 512">
+          <path fill="currentColor" d="M185.7 268.1h76.2l-38.1-91.6-38.1 91.6zM223.8 32L16 106.4l31.8 275.7 176 97.9 176-97.9 31.8-275.7zM354 373.8h-48.6l-26.2-65.4H168.6l-26.2 65.4H93.7L223.8 81.5z"></path>>
+          </svg>
+
+          <span class="link-text">Frameworks</span>
+        </a>
+      </li>
+
+      <!--Navegadores-->
+      <li class="nav-item">
+        <a href="nave.html" class="nav-link">
+
+          <svg 
+          aria-hidden="true" 
+          focusable="false" 
+          data-prefix="fab" 
+          data-icon="chrome" 
+          class="svg-inline--fa fa-chrome fa-w-16" 
+          role="img" 
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 496 512">
+          <path fill="currentColor" d="M131.5 217.5L55.1 100.1c47.6-59.2 119-91.8 192-92.1 42.3-.3 85.5 10.5 124.8 33.2 43.4 25.2 76.4 61.4 97.4 103L264 133.4c-58.1-3.4-113.4 29.3-132.5 84.1zm32.9 38.5c0 46.2 37.4 83.6 83.6 83.6s83.6-37.4 83.6-83.6-37.4-83.6-83.6-83.6-83.6 37.3-83.6 83.6zm314.9-89.2L339.6 174c37.9 44.3 38.5 108.2 6.6 157.2L234.1 503.6c46.5 2.5 94.4-7.7 137.8-32.9 107.4-62 150.9-192 107.4-303.9zM133.7 303.6L40.4 120.1C14.9 159.1 0 205.9 0 256c0 124 90.8 226.7 209.5 244.9l63.7-124.8c-57.6 10.8-113.2-20.8-139.5-72.5z"></path>>
+          </svg>
+
+          <span class="link-text">Navegadores</span>
+        </a>
+      </li>
+
+      <!--Sobre-->
+      <li class="nav-item">
+        <a href="sobre.html" class="nav-link">
+
+          <svg 
+          aria-hidden="true" 
+          focusable="false" 
+          data-prefix="fas" 
+          data-icon="info-circle" 
+          class="svg-inline--fa fa-info-circle fa-w-16" 
+          role="img" 
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 512 512">
+          <path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"></path>>
+          </svg>
+          
+          <span class="link-text">Sobre</span>
+        </a>
+      </li>
+
+      <!--Tema-->
+      <li class="nav-item" id="themeButton">
+        <a href="#" class="nav-link">
+
+
+          <svg
+            class="theme-icon"
+            id="darkIcon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fad"
+            data-icon="moon-stars"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            class="svg-inline--fa fa-moon-stars fa-w-16 fa-7x"
+          >
+            <g class="fa-group">
+              <path
+                fill="currentColor"
+                d="M320 32L304 0l-16 32-32 16 32 16 16 32 16-32 32-16zm138.7 149.3L432 128l-26.7 53.3L352 208l53.3 26.7L432 288l26.7-53.3L512 208z"
+                
+              ></path>
+              <path
+                fill="currentColor"
+                d="M332.2 426.4c8.1-1.6 13.9 8 8.6 14.5a191.18 191.18 0 0 1-149 71.1C85.8 512 0 426 0 320c0-120 108.7-210.6 227-188.8 8.2 1.6 10.1 12.6 2.8 16.7a150.3 150.3 0 0 0-76.1 130.8c0 94 85.4 165.4 178.5 147.7z"
+                
+              ></path>
+            </g>
+          </svg>
+          
+          <svg
+            class="theme-icon"
+            id="lightIcon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fad"
+            data-icon="sun"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            class="svg-inline--fa fa-sun fa-w-16 fa-7x"
+          >
+            <g class="fa-group">
+              <path
+                fill="currentColor"
+                d="M502.42 240.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.41-94.8a17.31 17.31 0 0 0-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4a17.31 17.31 0 0 0 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.41-33.5 47.3 94.7a17.31 17.31 0 0 0 31 0l47.31-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3a17.33 17.33 0 0 0 .2-31.1zm-155.9 106c-49.91 49.9-131.11 49.9-181 0a128.13 128.13 0 0 1 0-181c49.9-49.9 131.1-49.9 181 0a128.13 128.13 0 0 1 0 181z"
+                
+              ></path>
+              <path
+                fill="currentColor"
+                d="M352 256a96 96 0 1 1-96-96 96.15 96.15 0 0 1 96 96z"
+                
+              ></path>
+            </g>
+          </svg>
+
+          <svg
+            class="theme-icon"
+            id="solarIcon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fad"
+            data-icon="sunglasses"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+            class="svg-inline--fa fa-sunglasses fa-w-18 fa-7x"
+          >
+            <g class="fa-group">
+              <path
+                fill="currentColor"
+                d="M574.09 280.38L528.75 98.66a87.94 87.94 0 0 0-113.19-62.14l-15.25 5.08a16 16 0 0 0-10.12 20.25L395.25 77a16 16 0 0 0 20.22 10.13l13.19-4.39c10.87-3.63 23-3.57 33.15 1.73a39.59 39.59 0 0 1 20.38 25.81l38.47 153.83a276.7 276.7 0 0 0-81.22-12.47c-34.75 0-74 7-114.85 26.75h-73.18c-40.85-19.75-80.07-26.75-114.85-26.75a276.75 276.75 0 0 0-81.22 12.45l38.47-153.8a39.61 39.61 0 0 1 20.38-25.82c10.15-5.29 22.28-5.34 33.15-1.73l13.16 4.39A16 16 0 0 0 180.75 77l5.06-15.19a16 16 0 0 0-10.12-20.21l-15.25-5.08A87.95 87.95 0 0 0 47.25 98.65L1.91 280.38A75.35 75.35 0 0 0 0 295.86v70.25C0 429 51.59 480 115.19 480h37.12c60.28 0 110.38-45.94 114.88-105.37l2.93-38.63h35.76l2.93 38.63c4.5 59.43 54.6 105.37 114.88 105.37h37.12C524.41 480 576 429 576 366.13v-70.25a62.67 62.67 0 0 0-1.91-15.5zM203.38 369.8c-2 25.9-24.41 46.2-51.07 46.2h-37.12C87 416 64 393.63 64 366.11v-37.55a217.35 217.35 0 0 1 72.59-12.9 196.51 196.51 0 0 1 69.91 12.9zM512 366.13c0 27.5-23 49.87-51.19 49.87h-37.12c-26.69 0-49.1-20.3-51.07-46.2l-3.12-41.24a196.55 196.55 0 0 1 69.94-12.9A217.41 217.41 0 0 1 512 328.58z"
+                
+              ></path>
+              <path
+                fill="currentColor"
+                d="M64.19 367.9c0-.61-.19-1.18-.19-1.8 0 27.53 23 49.9 51.19 49.9h37.12c26.66 0 49.1-20.3 51.07-46.2l3.12-41.24c-14-5.29-28.31-8.38-42.78-10.42zm404-50l-95.83 47.91.3 4c2 25.9 24.38 46.2 51.07 46.2h37.12C489 416 512 393.63 512 366.13v-37.55a227.76 227.76 0 0 0-43.85-10.66z"
+                
+              ></path>
+            </g>
+          </svg>
+
+          <span class="link-text">Tema</span>
+        </a>
+      </li>
+
+      <!--Fim da Navbar-->
+    </ul>
+  </nav>
+
+  <!--Logo-->
+  <main style="text-align: center;">
+    
+    <svg 
+    width="441.5575317382812px" 
+    height="122.021240234375px"    
+    xmlns="http://www.w3.org/2000/svg"     
+    
+    style="background: rgba(0, 0, 0, 0);" preserveAspectRatio="xMidYMid"><defs> <filter id="editing-extrusion" x="-100%" y="-100%" width="300%" height="300%"> <feFlood result="color1" flood-color=var(--bg-primary)></feFlood><feConvolveMatrix order="8,8" divisor="1" kernelMatrix="1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1" in="SourceAlpha" result="extrude"></feConvolveMatrix><feComposite in="color1" in2="extrude" result="comp-extrude" operator="in"></feComposite><feOffset dx="1" dy="4" in="comp-extrude" result="offset-extrude"></feOffset><feMerge><feMergeNode in="offset-extrude"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><g filter="url(#editing-extrusion)"><g transform="translate(75.86500787734985, 100.00218772888184)"><path d="M2.69-39.68L2.69-39.68L2.69-39.68Q3.58-41.47 5.54-42.46L5.54-42.46L5.54-42.46Q7.49-43.46 10.18-43.46L10.18-43.46L10.18-43.46Q14.40-43.46 16.93-40.42L16.93-40.42L16.93-40.42Q19.46-37.38 19.46-30.72L19.46-30.72L19.46-7.87L34.11-42.18L41.66-42.18L43.39-9.79L43.20-7.94L58.43-42.18L67.20-42.18L46.72 0L33.09 0L31.81-19.46L23.36 0L7.94 0L6.02-30.72L6.02-30.72Q5.82-34.18 4.90-36.45L4.90-36.45L4.90-36.45Q3.97-38.72 2.69-39.68ZM89.28-10.82L89.28-10.82L89.28-10.82Q90.88-9.73 90.88-7.33L90.88-7.33L90.88-7.33Q90.88-4.93 89.66-3.39L89.66-3.39L89.66-3.39Q88.45-1.86 86.46-0.83L86.46-0.83L86.46-0.83Q82.37 1.28 77.95 1.28L77.95 1.28L77.95 1.28Q73.54 1.28 70.94 0.32L70.94 0.32L70.94 0.32Q68.35-0.64 66.62-2.43L66.62-2.43L66.62-2.43Q63.23-5.82 63.23-12.03L63.23-12.03L63.23-12.03Q63.23-21.70 68.48-27.58L68.48-27.58L68.48-27.58Q74.11-33.92 83.90-33.92L83.90-33.92L83.90-33.92Q89.98-33.92 92.99-31.36L92.99-31.36L92.99-31.36Q95.23-29.44 95.23-26.30L95.23-26.30L95.23-26.30Q95.23-15.04 75.78-15.04L75.78-15.04L75.78-15.04Q75.52-13.38 75.52-11.97L75.52-11.97L75.52-11.97Q75.52-9.02 76.83-7.90L76.83-7.90L76.83-7.90Q78.14-6.78 80.58-6.78L80.58-6.78L80.58-6.78Q83.01-6.78 85.60-7.90L85.60-7.90L85.60-7.90Q88.19-9.02 89.28-10.82ZM76.22-17.79L76.22-17.79L76.22-17.79Q80.77-17.79 83.39-20.61L83.39-20.61L83.39-20.61Q86.02-23.30 86.02-27.58L86.02-27.58L86.02-27.58Q86.02-29.06 85.47-29.86L85.47-29.86L85.47-29.86Q84.93-30.66 83.84-30.66L83.84-30.66L83.84-30.66Q82.75-30.66 81.82-30.24L81.82-30.24L81.82-30.24Q80.90-29.82 79.94-28.42L79.94-28.42L79.94-28.42Q77.57-25.22 76.22-17.79ZM96.58-3.07L96.58-3.07L104.51-44.80L117.50-46.08L115.52-36.29L115.52-36.29Q114.82-33.28 113.92-31.17L113.92-31.17L113.92-31.17Q115.33-32.96 118.40-33.66L118.40-33.66L118.40-33.66Q119.30-33.92 120.38-33.92L120.38-33.92L120.38-33.92Q126.34-33.92 129.60-30.30L129.60-30.30L129.60-30.30Q132.86-26.69 132.86-19.71L132.86-19.71L132.86-19.71Q132.86-10.62 127.68-4.93L127.68-4.93L127.68-4.93Q122.11 1.28 112 1.28L112 1.28L112 1.28Q105.02 1.28 99.78-1.02L99.78-1.02L99.78-1.02Q97.92-1.86 96.58-3.07ZM112.83-22.40L109.44-3.65L109.44-3.65Q110.78-2.50 112.45-2.50L112.45-2.50L112.45-2.50Q114.11-2.50 115.07-3.14L115.07-3.14L115.07-3.14Q116.03-3.78 116.74-5.06L116.74-5.06L116.74-5.06Q118.66-8.51 120.19-19.07L120.19-19.07L120.19-19.07Q120.64-22.08 120.64-25.09L120.64-25.09L120.64-25.09Q120.64-28.10 119.97-29.06L119.97-29.06L119.97-29.06Q119.30-30.02 118.02-30.02L118.02-30.02L118.02-30.02Q114.11-30.02 112.83-22.40L112.83-22.40ZM166.53-4.38L166.53-4.38L166.53-4.38Q163.84-1.66 160.16-0.19L160.16-0.19L160.16-0.19Q156.48 1.28 152.83 1.28L152.83 1.28L152.83 1.28Q149.18 1.28 147.90 0.64L147.90 0.64L145.92 11.52L132.93 12.80L141.76-32.64L152.19-33.73L151.36-29.31L151.36-29.31Q154.05-33.86 159.62-33.86L159.62-33.86L159.62-33.86Q165.89-33.86 169.22-29.82L169.22-29.82L169.22-29.82Q172.16-26.18 172.16-20.61L172.16-20.61L172.16-20.61Q172.16-15.04 170.69-11.07L170.69-11.07L170.69-11.07Q169.22-7.10 166.53-4.38ZM152.06-22.34L148.67-3.58L148.67-3.58Q150.02-2.43 151.68-2.43L151.68-2.43L151.68-2.43Q153.34-2.43 154.30-3.07L154.30-3.07L154.30-3.07Q155.26-3.71 155.97-4.99L155.97-4.99L155.97-4.99Q157.89-8.45 159.42-18.94L159.42-18.94L159.42-18.94Q159.87-22.02 159.87-25.02L159.87-25.02L159.87-25.02Q159.87-28.03 159.20-28.99L159.20-28.99L159.20-28.99Q158.53-29.95 157.25-29.95L157.25-29.95L157.25-29.95Q153.34-29.95 152.06-22.34L152.06-22.34ZM201.92-10.82L201.92-10.82L201.92-10.82Q203.52-9.73 203.52-7.33L203.52-7.33L203.52-7.33Q203.52-4.93 202.30-3.39L202.30-3.39L202.30-3.39Q201.09-1.86 199.10-0.83L199.10-0.83L199.10-0.83Q195.01 1.28 190.59 1.28L190.59 1.28L190.59 1.28Q186.18 1.28 183.58 0.32L183.58 0.32L183.58 0.32Q180.99-0.64 179.26-2.43L179.26-2.43L179.26-2.43Q175.87-5.82 175.87-12.03L175.87-12.03L175.87-12.03Q175.87-21.70 181.12-27.58L181.12-27.58L181.12-27.58Q186.75-33.92 196.54-33.92L196.54-33.92L196.54-33.92Q202.62-33.92 205.63-31.36L205.63-31.36L205.63-31.36Q207.87-29.44 207.87-26.30L207.87-26.30L207.87-26.30Q207.87-15.04 188.42-15.04L188.42-15.04L188.42-15.04Q188.16-13.38 188.16-11.97L188.16-11.97L188.16-11.97Q188.16-9.02 189.47-7.90L189.47-7.90L189.47-7.90Q190.78-6.78 193.22-6.78L193.22-6.78L193.22-6.78Q195.65-6.78 198.24-7.90L198.24-7.90L198.24-7.90Q200.83-9.02 201.92-10.82ZM188.86-17.79L188.86-17.79L188.86-17.79Q193.41-17.79 196.03-20.61L196.03-20.61L196.03-20.61Q198.66-23.30 198.66-27.58L198.66-27.58L198.66-27.58Q198.66-29.06 198.11-29.86L198.11-29.86L198.11-29.86Q197.57-30.66 196.48-30.66L196.48-30.66L196.48-30.66Q195.39-30.66 194.46-30.24L194.46-30.24L194.46-30.24Q193.54-29.82 192.58-28.42L192.58-28.42L192.58-28.42Q190.21-25.22 188.86-17.79ZM190.85-39.87L205.95-49.22L205.95-49.22Q208.26-48.32 208.26-44.99L208.26-44.99L208.26-44.99Q208.26-42.18 205.57-40.38L205.57-40.38L205.57-40.38Q203.33-38.85 200.06-38.27L200.06-38.27L192.19-36.80L190.85-39.87ZM230.21-33.92L230.21-33.92L230.21-33.92Q232.51-33.92 234.30-33.41L234.30-33.41L234.30-33.41Q234.37-33.66 234.50-34.37L234.50-34.37L234.82-36.35L234.82-36.35Q235.07-37.63 235.46-39.74L235.46-39.74L236.48-44.80L249.22-46.08L242.11-8.96L242.11-8.96Q242.05-8.58 242.05-7.94L242.05-7.94L242.05-6.91L242.05-6.91Q242.05-5.50 242.75-4.45L242.75-4.45L242.75-4.45Q243.46-3.39 244.61-3.39L244.61-3.39L244.61-3.39Q243.33-0.38 239.42 0.90L239.42 0.90L239.42 0.90Q238.08 1.28 236.19 1.28L236.19 1.28L236.19 1.28Q234.30 1.28 232.58 0.29L232.58 0.29L232.58 0.29Q230.85-0.70 230.34-2.37L230.34-2.37L230.34-2.37Q229.31-0.70 227.26 0.29L227.26 0.29L227.26 0.29Q225.22 1.28 222.24 1.28L222.24 1.28L222.24 1.28Q219.26 1.28 216.80 0.51L216.80 0.51L216.80 0.51Q214.34-0.26 212.80-1.92L212.80-1.92L212.80-1.92Q209.98-5.18 209.98-12.61L209.98-12.61L209.98-12.61Q209.98-22.21 215.62-28.03L215.62-28.03L215.62-28.03Q221.25-33.92 230.21-33.92ZM229.76-30.08L229.76-30.08L229.76-30.08Q227.39-30.08 226.11-27.52L226.11-27.52L226.11-27.52Q224.83-24.96 223.52-18.62L223.52-18.62L223.52-18.62Q222.21-12.29 222.21-6.59L222.21-6.59L222.21-6.59Q222.21-2.69 224.51-2.69L224.51-2.69L224.51-2.69Q226.56-2.69 228.00-4.74L228.00-4.74L228.00-4.74Q229.44-6.78 230.02-10.18L230.02-10.18L233.47-28.93L233.47-28.93Q232.13-30.08 229.76-30.08ZM265.41-3.52L265.41-3.52L265.41-3.52Q263.42 1.28 257.09 1.28L257.09 1.28L257.09 1.28Q253.82 1.28 251.78-0.96L251.78-0.96L251.78-0.96Q250.05-2.94 250.05-4.93L250.05-4.93L250.05-4.93Q250.05-10.11 252.42-20.22L252.42-20.22L254.78-32.64L267.78-33.92L263.87-13.70L263.87-13.70Q262.78-8.96 262.78-7.30L262.78-7.30L262.78-7.30Q262.78-3.65 265.41-3.52ZM255.94-41.54L255.94-41.54L255.94-41.54Q255.94-44.03 258.02-45.38L258.02-45.38L258.02-45.38Q260.10-46.72 263.10-46.72L263.10-46.72L263.10-46.72Q266.11-46.72 267.94-45.38L267.94-45.38L267.94-45.38Q269.76-44.03 269.76-41.54L269.76-41.54L269.76-41.54Q269.76-39.04 267.74-37.76L267.74-37.76L267.74-37.76Q265.73-36.48 262.72-36.48L262.72-36.48L262.72-36.48Q259.71-36.48 257.82-37.76L257.82-37.76L257.82-37.76Q255.94-39.04 255.94-41.54ZM273.63-1.92L273.63-1.92L273.63-1.92Q272.13-3.58 271.46-6.21L271.46-6.21L271.46-6.21Q270.78-8.83 270.78-13.12L270.78-13.12L270.78-13.12Q270.78-17.41 272.26-21.31L272.26-21.31L272.26-21.31Q273.73-25.22 276.42-28.03L276.42-28.03L276.42-28.03Q281.92-33.92 291.01-33.92L291.01-33.92L291.01-33.92Q294.27-33.92 296.64-32.83L296.64-32.83L307.58-33.92L302.85-8.96L302.85-8.96Q302.66-8.19 302.66-6.78L302.66-6.78L302.66-6.78Q302.66-5.38 303.52-4.48L303.52-4.48L303.52-4.48Q304.38-3.58 305.66-3.46L305.66-3.46L305.66-3.46Q305.02-1.28 302.69 0L302.69 0L302.69 0Q300.35 1.28 297.73 1.28L297.73 1.28L297.73 1.28Q295.10 1.28 293.34 0.29L293.34 0.29L293.34 0.29Q291.58-0.70 291.07-2.37L291.07-2.37L291.07-2.37Q290.05-0.77 287.87 0.26L287.87 0.26L287.87 0.26Q285.70 1.28 282.78 1.28L282.78 1.28L282.78 1.28Q279.87 1.28 277.50 0.51L277.50 0.51L277.50 0.51Q275.14-0.26 273.63-1.92ZM287.14-27.90L287.14-27.90L287.14-27.90Q286.40-26.75 285.76-24.80L285.76-24.80L285.76-24.80Q285.12-22.85 284.06-17.63L284.06-17.63L284.06-17.63Q283.01-12.42 283.01-8.70L283.01-8.70L283.01-8.70Q283.01-4.99 283.58-3.90L283.58-3.90L283.58-3.90Q284.16-2.82 285.18-2.82L285.18-2.82L285.18-2.82Q287.23-2.82 288.74-4.77L288.74-4.77L288.74-4.77Q290.24-6.72 290.82-10.18L290.82-10.18L294.21-28.93L294.21-28.93Q292.86-30.08 291.30-30.08L291.30-30.08L291.30-30.08Q289.73-30.08 288.80-29.57L288.80-29.57L288.80-29.57Q287.87-29.06 287.14-27.90Z" fill=var(--text-secondary)></path></g></g>
+    <style>text {
+    font-size: 64px;
+    font-family: Arial Black;
+    text-anchor: middle;      
+    }</style>
+    </svg>
+
+    <h2>
+      A enciclopédia da história e evolução Web.
+    </h2>
+
+    <hr>
+    <div class="text">
+      <p>
+        O HTML foi a primeira linguagem de nível mundial, porem não é a única. 
+        Existem muitas outras linguagens destinadas á criação de paginas da web, 
+        porém o HTML ainda prevalece. 
+        Atualmente já é possível integrar varias linguagens na mesma pagina da Web, 
+        sendo possível usar duas ou mais linguagens no mesmo site. 
+      </p>
+      <p>
+        Foi então que surgiu a ideia do Webpédia, um site para documentação
+        e instrução de toda arquitetura Web ao longo dos anos, com breves
+        resumos destacando as principais mudanças, ferramentas, modo de usar
+        e muito mais dessas tecnologias tão presentes em nosso dia a dia.
+      </p>
+      <p>
+        Para criar e editar códigos em HTML é necessário qualquer editor de texto comum, 
+        como bloco de notas. Para testar os códigos, basta salvar o arquivo em formato.
+        HTML e executar. Para o teste é necessário ter um navegador configurado como padrão.
+        Não é necessária internet, pois o arquivo com os códigos esta na maquina onde esta sendo executado.
+      </p>
+    </div>
+    <hr>
+
+    <div class="box">
+      <div class="container">
+
+        <div class="border">
+          <h3>História do HTML e suas principais mudanças</h3>
+          <div class="section">
+            <img src="../assets/img/homepage/historia.png">
+            <p> 
+              Página dedicada a demonstrar de forma teórica e visual as principais
+              mudanças no layout das páginas aos longos dos anos. Serão abordadas as
+              diferenças de <i>Design</i> entre os anos, funções importantes que chegaram
+              em determinadas versões do HTML e até o surgimento de linguagens, navegadores
+              e Frameworks, sendo esse último descrito mais afundo em sua respectiva página.
+            </p>
+          </div>
+        </div>
+
+        <div class="border">
+          <h3>Bibliotecas e Frameworks mais utilizados na atualidade</h3>
+          <div class="section">
+            <img src="../assets/img/homepage/framework.png">
+            <p> 
+              Além de uma descrição sobre utilidade e diferenças entre <i>Frameworks</i>
+              e <i>Bibliotecas</i>, também conta com uma listagem dos principais utilizados
+              no desenvolvimento Web atualmente, além de suas peculiaridades, vantagens, funções
+              e Documentação oficial anexada para aprendizado, dúvidas e utilização do mesmo.
+            </p>
+          </div>
+        </div>
+
+        <div class="border">
+          <h3>Navegadores e suas inovações para o desenvolvimento Web</h3>
+          <div class="section">
+            <img src="../assets/img/homepage/navegador.png">
+            <p> 
+              Além de uma descrição sobre utilidade e diferenças entre <i>Frameworks</i>
+              e <i>Bibliotecas</i>, também conta com uma listagem dos principais utilizados
+              no desenvolvimento Web atualmente, além de suas peculiaridades, vantagens, funções
+              e Documentação oficial anexada para aprendizado, dúvidas e utilização do mesmo.
+            </p>
+          </div>
+        </div>
+      
+
+      </div>
+    </div>
+  
+    <br>
+  </main>
+
+
+
+
+
+</body>
+</html>

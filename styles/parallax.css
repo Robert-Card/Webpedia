@@ -1,0 +1,67 @@
+/*Efeito Parallax*/
+.parallax {
+    background-attachment: fixed;
+}
+
+/*Imagens*/
+.img1990 {
+    background-image: url("../assets/img/historia/1990-1994.jpg");
+}
+
+.img1994 {
+    background-image: url("../assets/img/historia/1994-1998.jpg");
+}
+
+.img1998 {
+    background-image: url("../assets/img/historia/1998-2002.jpg");
+}
+
+.img2002 {
+    background-image: url("../assets/img/historia/2002-2006.jpg");
+}
+
+.img2006 {
+    background-image: url("../assets/img/historia/2006-2010.jpg");
+}
+
+.img2010 {
+    background-image: url("../assets/img/historia/2010-2021.jpg");
+}
+
+/*Media Querries do background*/
+@media only screen and (max-width: 700px) {
+    .bgparallax {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 90%;
+        width: 100%;
+        height: 370px;
+        justify-content: center;
+        align-items: center;           
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    .bgparallax {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 70%;
+        width: 100%;
+        height: 550px;
+        justify-content: center;
+        align-items: center;  
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .bgparallax {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 40%;
+        width: 100%;
+        height: 550px;
+        justify-content: center;
+        align-items: center;    
+    }
+}

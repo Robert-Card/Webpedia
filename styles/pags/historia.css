@@ -1,0 +1,77 @@
+/*Título*/
+
+h2{
+    font-size: 3rem;
+    color: var(--bg-primary);
+    font-weight: 1000;
+    -webkit-text-fill-color: var(--bg-secondary);
+    -webkit-text-stroke-color: var(--text-primary);
+    -webkit-text-stroke-width: 2.00px; 
+    margin: 0;
+    margin-top: 3rem;    
+}
+
+h1{
+    font-size: 6rem;
+    font-family: 'Rampart One', cursive;
+    margin: 0;      
+}
+ 
+.div_video{
+    align-content: center;
+    text-align: center;
+    width: 41rem;
+    margin: auto;
+}
+
+.video{
+    width: 720px;
+    height: 480px;
+}
+
+.intro{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.titulo{
+    text-align: center;
+    margin-left: 4rem;
+}
+
+.ano{
+    font-family: 'Staatliches', cursive;   
+    font-size: 50px;
+    text-align: justify;
+    margin-left: 29px !important;
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 850px) {
+.div_video{
+    align-content: center;
+    text-align: center; 
+    background-color: var(--bg-primary);
+    width: 90%;
+    margin: auto;
+}
+
+.video{
+   width: 90%;
+   height: 250px;
+    
+}
+
+.titulo{
+    margin-left: 0;
+}
+
+.ano{    
+    font-size: 22px;
+    text-align: left;
+    margin-left: 39px !important;
+}
+
+}/*FIM MOBILE*/
+
